@@ -1,0 +1,33 @@
+.split-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.Catalogue {
+  /* width: 100vw; */
+  height: 100vh;
+  background: black;
+  padding-left: 2em;
+}
+
+.Learn {
+  /* width: 100vw; */
+}
+
+.CourseTitle {
+  color: white;
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+p {
+  font-family: "Anonymous Pro";
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+ul {
+  /** works with ol too **/
+  list-style: none; /** removes bullet points/numbering **/
+  padding-left: 0px; /** removes actual indentation **/
+}
