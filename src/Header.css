@@ -1,0 +1,29 @@
+
+.header {
+    font-family: "Anonymous Pro";
+    height: 60px;
+    position: sticky;
+    padding-left: 2em;
+    flex-wrap:wrap;
+    flex-direction: row;
+    padding:10px;
+}
+
+.header_image {
+    display: flex;
+    margin-right: 50px;
+    height: -60px;
+   
+    
+}
+
+.header_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    zoom: 0.5;
+    
+}
