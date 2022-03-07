@@ -2,12 +2,12 @@ const chapters = [
   {
     id: 1,
     course: "Logic",
-    chapter: "Hello world",
+    chapter: "What’s a negation?",
   },
   {
     id: 2,
     course: "Logic",
-    chapter: "Bye world",
+    chapter: "Practice negation",
   },
 ];
 

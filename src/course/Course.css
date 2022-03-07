@@ -8,16 +8,13 @@
   height: 100vh;
   background: black;
   padding-left: 2em;
-}
-
-.Learn {
-  /* width: 100vw; */
+  padding-right: 1em;
 }
 
 .CourseTitle {
   color: white;
   font-weight: bold;
-  font-size: 1.7em;
+  font-size: 1.3em;
 }
 
 p {
@@ -30,4 +27,17 @@ ul {
   /** works with ol too **/
   list-style: none; /** removes bullet points/numbering **/
   padding-left: 0px; /** removes actual indentation **/
+}
+
+.ChapterText {
+  color: white;
+}
+
+.CurrentChapter {
+  color: #37ebd5;
+}
+
+.Bottom {
+  position: absolute;
+  bottom: 2em;
 }

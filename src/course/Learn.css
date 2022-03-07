@@ -1,0 +1,45 @@
+.Learn {
+}
+
+.QuestionContainer {
+  margin: auto;
+  width: 50%;
+}
+
+.Question {
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.ChoiceText {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.ChoiceButton {
+  font-size: 1.3em;
+  padding: 10px 18px; /* vert, hori */
+  background: white;
+  border-color: black;
+  border-radius: 8px;
+}
+
+.ChoiceButton:hover {
+  border-color: aqua;
+}
+
+p {
+  font-family: "Anonymous Pro";
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+ul {
+  /** works with ol too **/
+  list-style: none; /** removes bullet points/numbering **/
+  padding-left: 0px;
+}
+
+li:not(:last-child) {
+  margin-bottom: 16px;
+}
