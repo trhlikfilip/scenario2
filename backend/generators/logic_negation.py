@@ -13,7 +13,7 @@ class question_generator:
             self.alter_txt = "Slightly alter the subject of the statement so the new alteration resembles it but has a different meaning. Generate new alterations based on the given statement.\n\nStatement: All the boys wanted to win the match.\nAlteration: All the boys from my high school wanted to win the marathon.\nStatement: If I miss my train, then I will take the bus.\nAlteration: If I miss my bus, then I will take a taxi.\nStatement: This joke terrified and amused the internet.\nAlteration: This news terrified and amused the people on the internet.\nStatement:"
         
         def gpt3(self,stext, temp, tokens):
-            openai.api_key = "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"
+            openai.api_key = "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"
             response = openai.Completion.create(
                 engine="davinci-instruct-beta",
                 prompt=stext,
